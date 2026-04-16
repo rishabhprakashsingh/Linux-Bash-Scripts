@@ -4,6 +4,9 @@ echo "=========================="
 echo "    SYSTEM INFO REPORT"
 echo "========================="
 
+echo "IP Address    : $(hostname -I)"
+echo "Kernel Version: $(uname -r)"
+
 echo ""
 echo "Date and Time : $(date)"
 echo "Logged in User: $(whoami)"
