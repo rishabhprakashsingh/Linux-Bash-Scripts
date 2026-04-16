@@ -2,7 +2,7 @@
 
 echo "=========================="
 echo "    SYSTEM INFO REPORT"
-echo "========================="
+echo "=========================="
 
 echo "IP Address    : $(hostname -I)"
 echo "Kernel Version: $(uname -r)"
