@@ -52,5 +52,5 @@ covering Vim, I/O redirection, AWK, SED, FIND, and more.
 
 ## Author
 Rishabh Prakash Singh
-[LinkedIn](www.linkedin.com/in/rishabh-prakash-singh-b13239308)|
+[LinkedIn]([www.linkedin.com/in/rishabh-prakash-singh-b13239308](https://www.linkedin.com/in/rishabh-prakash-singh-b13239308/?skipRedirect=true))|
 [GitHub](https://github.com/rishabhprakashsingh)
