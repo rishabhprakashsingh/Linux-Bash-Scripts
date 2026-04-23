@@ -49,6 +49,31 @@ echo "cd foldername - Change directory"
 echo "cd ../    - Go back to parent directory"
 echo "cd ../../.. - Go back multiple levels"
 echo""
+
+echo "[File Cammands]"
+echo "cat > file1   - create file with cat cammand and write content ( ctrl+D to exit)"
+echo "cat >> file1  - Add more content into a existing file"
+echo "cat file1     - View file content"
+echo "cat file1 >file2  - Copy file1 content into file2"
+echo "cat file1 file2 > all - combine 2 files into one"
+echo "tac file1         - View file content from bottom to top"
+echo "touch file1       - Create empty file"
+echo "touch file1 file2 - create multiple empty files"
+echo "touch -a          - update access timestamp"
+echo "touch -m          - update modify timestamp"
+echo "stat file1        - Check all 3 timestamps of a file"
+echo""
+
+echo "[View File content]"
+echo "View less file1   - Will show contnet of 1st page"
+echo "more file1        - View all pages"
+echo "head file1        - Show first 10 lines"
+echo "head -n1 file1    - Show only the first line"
+echo "tail file1        - Show last ten line"
+echo "tail -n1 file1    - Show only last line"
+echo "wc file1          - Word count ( lines words characters )"
+echo""
+
 }
 
 list_mode
