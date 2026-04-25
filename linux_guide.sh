@@ -74,6 +74,10 @@ echo "tail -n1 file1    - Show only last line"
 echo "wc file1          - Word count ( lines words characters )"
 echo""
 
+echo "[ DIRECTORY CAMMANDS ]"
+echo "mkdir foldername  - create a directory with mkdir"
+
+
 }
 
 list_mode
