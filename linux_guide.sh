@@ -76,7 +76,26 @@ echo""
 
 echo "[ DIRECTORY CAMMANDS ]"
 echo "mkdir foldername  - create a directory with mkdir"
+echo "mkdir -p f1/f2/f3 - create many directories at once with mkdir -p"
+echo "rmdir foldername  - remove empty directory"
+echo "rmdir -p foldername - remove parent directory and child directory with rmdir -p"
+echo "rmdir -pv foldername - Remove all with verbose"
+echo "tree              - Show directory tree structure"
+echo "tree -            - Show tree including hidden files"
+echo "tree -d           - Show only directories"
+echo "tree -L 2         - SHow only 2 levels deep"
+echo""
 
+echo "[ HIDDEN FILES ]"
+echo "touch .           - Create hidden file ( dot before file name)"
+echo "ls -a             - View hidden files"
+echo""
+
+echo "[EDITORS -VI / VIM NANO ]"
+echo "vi  - Open file in vi"
+echo "vim - open file in vim ( modern vi )"
+echo "nano - Open in nano"
+echo""
 
 }
 
