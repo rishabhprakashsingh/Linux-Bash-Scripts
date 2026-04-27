@@ -97,6 +97,28 @@ echo "vim - open file in vim ( modern vi )"
 echo "nano - Open in nano"
 echo""
 
+echo "Vim Shortcuts:"
+echo " i      - Insert Mode"
+echo " Esc    - Normal Mode"
+echo " :w     - Save"
+echo " :wq    - Save and quit"
+echo " :q!    - Force quit and no save"
+echo " :wqa   - Quit all open files"
+echo " gg     - Jump to first line"
+echo " Shift+g - Jump last line"
+echo " dd     - Cut entire line"
+echo " p      - Paste"
+echo " yy     - Copy line"
+echo " u      - Undo"
+echo " ctrl+r - Redo"
+echo " /word  - Search forward"
+echo " ?word  - Search backward"
+echo " :set nu - Show line numbers"
+echo " vim -o f1 f2 - Horizontal split"
+echo " vim -O f1 f2 - Vertical split"
+echo " vim -d f1 f2 - Compare files ( vimdiff )"
+echo " ctrl+ww - Switch between split files"
+
 }
 
 list_mode
