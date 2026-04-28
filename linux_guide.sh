@@ -118,6 +118,16 @@ echo " vim -o f1 f2 - Horizontal split"
 echo " vim -O f1 f2 - Vertical split"
 echo " vim -d f1 f2 - Compare files ( vimdiff )"
 echo " ctrl+ww - Switch between split files"
+echo""
+
+echo "Nano Shortcuts"
+echo "ctrl+x    - Quit"
+echo "Shift+y   - Save when quiting"
+echo""
+
+echo "[ Echo and Printf ]"
+echo "echo \"text"\ >file1    - Write to file ( overwrites )"
+
 
 }
 
