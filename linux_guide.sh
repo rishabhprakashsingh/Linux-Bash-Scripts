@@ -175,6 +175,18 @@ echo "cat /etc/os-release - OS version and name"
 echo "history        - All cammands used by user so far"
 echo""
 
+echo "[ PACKAGE MANAGEMENT ]"
+echo "sudo apt  update       - Refresh package list"
+echo "sudo apt upgrade       - Upgrade packages"
+echo "apt list --upgradable  - What can be upgraded"
+echo "apt list --installed   - All installed apps"
+echo "sudo apt install pkg   - Install a package"
+echo "sudo apt remove pkg    - Remove a package"
+echo "sudo apt autoremove    - Clean unused packages"
+echo "which                  - Write package name with which to check if it is installed"
+echo "wget url               - download file from internet"
+echo""
+
 }
 
 list_mode
