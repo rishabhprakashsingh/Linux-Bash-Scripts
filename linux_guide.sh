@@ -187,6 +187,14 @@ echo "which                  - Write package name with which to check if it is i
 echo "wget url               - download file from internet"
 echo""
 
+echo "[ SERVICES - SYSTEMCTL ]" example - apache2
+echo "sudo systemctl start service name  - Start a service"
+echo "sudo systemctl stop service name  - Stop a service"
+echo "sudo systemctl status service name - Check service status"
+echo "sudo systemctl restart service name - Restart service"
+echo "systemctl enable service name       - Start service on boot"
+echo "systemctl disable service name      - Disable start on boot"
+echo""
 }
 
 list_mode
