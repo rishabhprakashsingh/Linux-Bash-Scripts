@@ -195,6 +195,17 @@ echo "sudo systemctl restart service name - Restart service"
 echo "systemctl enable service name       - Start service on boot"
 echo "systemctl disable service name      - Disable start on boot"
 echo""
+
+echo "[ PROCESSES ]"
+echo "top             - Real time monitor ( CPU RAM Processes )"
+echo "ps              - Snapshot of runinning processes"
+echo "ps -a           - All processes including background"
+echo "ps -p 1         - See PID 1 ( Systemd )"
+echo "Kill PID        - KIll process by PID"
+echo "Kill -9 PID     - Force kill a process"
+echo "pkill name      - Kill process by name"
+echo "Killall name    - Kill all processes by name"
+echo""
 }
 
 list_mode
