@@ -220,6 +220,13 @@ echo "free -g         - Memory in GB"
 echo "free -h -t      - Ram and swap in total combined"
 echo "watch free -h   - Continous memory monitoring"
 echo""
+
+echo "[ TAR AND COMPRESSION ]"
+echo "tar -cvf file.tar      - Create tar archieve"
+echo "tar -xvf file.tar      - Extra tar archieve"
+echo "gzip file.tar          - Compress to .tar.gz"
+echo "gunzip file.tar.gz     - Decompress .tar.gz"
+echo""
 }
 
 list_mode
