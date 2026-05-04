@@ -206,6 +206,20 @@ echo "Kill -9 PID     - Force kill a process"
 echo "pkill name      - Kill process by name"
 echo "Killall name    - Kill all processes by name"
 echo""
+
+echo "[ DISK AND MEMORY ]"
+echo "df -h           - Disk free space ( human readable )"
+echo "df -h -BK       - Disk space in KIlobytes"
+echo "df -h -BG       - Disk space in Gigabytes"
+echo "du -h           - Current folder size"
+echo "du -ah          - Size of all files and folders"
+echo "du -ahc         - Same as above with total at end"
+echo "free -h         - Ram and swap usage ( human readable )"
+echo "free -m         - Memory in MB"
+echo "free -g         - Memory in GB"
+echo "free -h -t      - Ram and swap in total combined"
+echo "watch free -h   - Continous memory monitoring"
+echo""
 }
 
 list_mode
