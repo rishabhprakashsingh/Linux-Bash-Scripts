@@ -227,6 +227,16 @@ echo "tar -xvf file.tar      - Extra tar archieve"
 echo "gzip file.tar          - Compress to .tar.gz"
 echo "gunzip file.tar.gz     - Decompress .tar.gz"
 echo""
+
+echo "[ Redirects AND PIPE ]"
+echo "stdin=0 ( input ) | stdout=1 ( output ) | stderr=2 ( error )"
+echo "cammand > file         - Save output to file ( overwrites )"
+echo "cammand >> file        - Append output to file"
+echo "cammand 2> file        - Save errors to file"
+echo "cammand > file 2>&1    - Sve both output and error"
+echo "cammand < file         - Take input from file"
+echo "cmd1 | cmd2            - pipe: output of cmd1 goes into cmd2"
+echo""
 }
 
 list_mode
