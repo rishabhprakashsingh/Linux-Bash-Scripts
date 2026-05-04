@@ -237,6 +237,15 @@ echo "cammand > file 2>&1    - Sve both output and error"
 echo "cammand < file         - Take input from file"
 echo "cmd1 | cmd2            - pipe: output of cmd1 goes into cmd2"
 echo""
+
+echo "[ Curl ]"
+echo "curl google.com    - Fetch data from URL"
+echo "curl -O url        - Download file with orignal name"
+echo "curl -o name url   - Download file with custom name"
+echo "curl -I url        - Show headers only"
+echo "curl -L url        - Follow redirects"
+echo "Remember: curl shows output | wget saves files"
+echo""
 }
 
 list_mode
