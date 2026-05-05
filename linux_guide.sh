@@ -246,6 +246,18 @@ echo "curl -I url        - Show headers only"
 echo "curl -L url        - Follow redirects"
 echo "Remember: curl shows output | wget saves files"
 echo""
+
+echo "[ AWK ]"
+echo "NR = line number | NF = field count | \$0 = full line | \$1 \$2 = columns"
+echo "awk '{ print \$2 }' file         - Print column 2"
+echo "awk '{ print \$NF}' file         - Print last column"
+echo "awk '{ print NR, \$0}' file      - Print with line numbers"
+echo "awk 'NR==5{print NR, \$0} file   - Print only line 5"
+echo "awk 'NR==5,NR==10{print}' file   - Print lines 5 to 10"
+echo "awk 'NF==O{print NR}' file       - Find empty lines"
+echo "awk '/word/{print \$0}' file     - Search a word"
+echo "awk '/w1/w2/{print \$0}' file    - Search multiple words"
+echo""
 }
 
 list_mode
