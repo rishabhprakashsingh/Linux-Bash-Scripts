@@ -280,9 +280,83 @@ echo " then"
 echo " echo sorry"
 echo " else"
 echo " echo Welcome"
-echo" fi"
 echo""
 
+echo "Comparison operators"
+echo " eq  - equal to"
+echo " ne  - not equal"
+echo " gt  - greater than"
+echo " lt  - less than"
+echo " ge  - greater or equal"
+echo " le  - lessor equal"
+echo""
+
+echo " case statement:"
+echo " case \$choice in"
+echo "  1) date ;;"
+echo "  2) ls -a;;"
+echo "  *) echo invalid"
+echo " esac"
+
+echo "for loop:"
+echo " for count in 1 2 3"
+echo " do"
+echo " echo count is \$count"
+echo " done"
+echo""
+
+echo "While loop:"
+echo " count=10"
+echo " while [ \$count -le 20 ]"
+echo " do"
+echo " echo \$count"
+echo " let count++"
+echo " done"
+echo""
+
+echo "Arithmetic ( 4 Ways )"
+echo " \$(( a+b ))  best way"
+echo " expr \$a + \$b  expr cammand"
+echo " let result=a+b  let cammand"
+echo " echo '10/3' | b bc for decimals"
+echo""
+
+echo "================================="
+echo " End of Guide - Rishabh          "
+echo "================================="
+echo""
 }
 
-list_mode
+# ======================================
+# FUNCTION 2 - SEARCH MODE
+# ======================================
+
+Search_mode(){
+Keyword="$1"
+echo""
+echo "================================"
+echo "  Search Results for: $Keyword"
+echo "================================"
+echo ""
+list_mode | grep -i "$Keyword"
+echo ""
+echo "============================================"
+echo " Tip: Try other keywords if not enough results"
+echo "============================================"
+echo ""
+}
+
+echo "===================================="
+echo " 1. List All Cammands"
+echo " 2. Search a cammand"
+echo "===================================="
+read -p "Enter choice (1/2): " choice
+
+if [ "$choice" == "1" ]; then
+	list_mode
+elif [ "$choice" == "2" ]; then
+	read -p "Enter keyword: " keyword
+	Search_mode "$keyword"
+else 
+	echo "Invalid choice"
+fi
