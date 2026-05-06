@@ -258,6 +258,31 @@ echo "awk 'NF==O{print NR}' file       - Find empty lines"
 echo "awk '/word/{print \$0}' file     - Search a word"
 echo "awk '/w1/w2/{print \$0}' file    - Search multiple words"
 echo""
+
+echo "[ SHELL SCRIPTING ]"
+echo "#!/bin/bash              - Shebang, first line of every script"
+echo "\$0                      - Check your current shell"
+echo "chmod u+x script.sh      - Give execute permission to script"
+echo "./script.sh              - Run script"
+echo""
+echo "Variables:"
+echo " name=Rishabh   No spaces around ="
+echo " echo \$name    Use dollar sign to print value"
+echo " host=\$(hostname) Store cammand output in variable"
+echo""
+echo "Read user input:"
+echo " read - Stores what user types"
+echo""
+
+echo "if-else:"
+echo " if [ \$weight -gt 70 ]"
+echo " then"
+echo " echo sorry"
+echo " else"
+echo " echo Welcome"
+echo" fi"
+echo""
+
 }
 
 list_mode
