@@ -156,7 +156,4 @@ IT Operations | Linux · Bash Scripting
 ## 📌 Part of
 
 [Linux-Bash-Scripts](https://github.com/rishabhprakashsingh/Linux-Bash-Scripts) — A collection of Bash scripts built while learning Linux for a TechOps/DevOps career transition.
-## Author
-Rishabh Prakash Singh
-[LinkedIn]([www.linkedin.com/in/rishabh-prakash-singh-b13239308](https://www.linkedin.com/in/rishabh-prakash-singh-b13239308/?skipRedirect=true)
 [GitHub](https://github.com/rishabhprakashsingh)
