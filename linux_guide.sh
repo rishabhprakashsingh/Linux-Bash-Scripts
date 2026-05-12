@@ -361,5 +361,25 @@ else
 	echo "Invalid choice"
 fi
 
-function 3 quize
+# ====================================================
+#           Function 3 - Quiz Mode
+# ====================================================
 
+show_score() {
+echo ""
+echo "==============================================="
+echo " Your score: ${score} / ${total}"
+echo""
+
+if [ "$score"  -eq "$total" ]; then
+	echo "Perfect score! Linux pro!"
+elif [ "$score" -ge $((total * 7 / 10)) ]; then
+	echo "Great Job! Keep going"
+elif [ "$score" -ge $((total / 2)) ]; then
+	echo "Good effort. Review and retry."
+else
+	echo "Keep studying. Use list mode to revise."
+fi
+echo "==============================================="
+echo""
+}
