@@ -360,3 +360,6 @@ elif [ "$choice" == "2" ]; then
 else 
 	echo "Invalid choice"
 fi
+
+function 3 quize
+
